@@ -1,10 +1,12 @@
 const router = require('express').Router();
-const { Category, Product } = require('../../models');
+const { Category, Product } = require("../../models");
 
 // The `/api/categories` endpoint
 
+
+// find all categories
 router.get('/', async(req, res) => {
-  // find all categories
+  
   try {
     const CategoryData = await Category.findAll({
       // JOIN with locations, using the Trip through table
