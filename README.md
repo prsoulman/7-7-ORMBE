@@ -30,6 +30,14 @@ Once the database has been created, use "npm run seed" in the terminal while in 
 
  
 
+![GIFwalkthrough](./Images/Untitled_%20Jul%208%2C%202022%2011_41%20AM.gif)
+
+
+
+
+
+![GIFwalkthrough](./Images/Screenshot%202022-07-08%20114917.png)
+
 
 
 ## Video Walkthrough
