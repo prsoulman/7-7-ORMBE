@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
   try {
-    const TagData = await Tag.findAll({
+    const TagData = await Tag.findOne({
       // JOIN with locations, using the Trip through table
       include:[Product]
     });
